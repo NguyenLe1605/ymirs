@@ -9,3 +9,5 @@ path = "src/boot.rs"
 
 
 [dependencies]
+log = "0.4.27"
+uefi = { version = "0.35.0", features = ["panic_handler", "logger"] }
