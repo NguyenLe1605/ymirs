@@ -4,5 +4,3 @@ b = "build --bin bootx64"
 [build]
 target = ["x86_64-unknown-uefi"]
 
-[target.x86_64-unknown-uefi]
-runner = "./qemu.sh"
