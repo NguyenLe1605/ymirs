@@ -12,6 +12,11 @@ ymirs_dest := prepend(ymirs_bin, ".elf")
 ymirs_bin_path := prepend(ymirs_dir, ymirs_bin)
 ymirs_boot_path := prepend(img_dir, ymirs_dest)
 
+alias b := build
+alias r := run
+alias bs := build-sutrs
+alias by := build-ymirs
+
 
 run: build
     qemu-system-x86_64 -m 512M \
